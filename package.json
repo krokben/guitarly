@@ -1,0 +1,7 @@
+{
+  "name": "guitarly",
+  "version": "1.0.0",
+  "author": "Tommy Svensson",
+  "main": "index.js",
+  "license": "MIT"
+}

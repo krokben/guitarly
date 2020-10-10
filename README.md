@@ -1,0 +1,2 @@
+# Guitarly
+Guitar voicing interface
