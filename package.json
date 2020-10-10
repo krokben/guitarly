@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "build-watch": "parcel watch ./src/client/index.html",
-    "start-watch": "nodemon src/index.ts",
+    "start-watch": "nodemon src/server/index.ts",
     "dev": "concurrently --kill-others \"yarn start-watch\" \"yarn build-watch\"",
     "build": "parcel build ./src/client/index.html",
-    "start": "yarn build && node src/index.ts",
+    "start": "yarn build && node src/server/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
