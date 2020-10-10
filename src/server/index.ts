@@ -8,8 +8,8 @@ const app = express();
 app.use(express.json());
 app.use(express.static("dist"));
 
-app.get("/voicings", getVoicings);
-app.post("/voicings", addVoicing);
+app.get("/api/voicings", getVoicings);
+app.post("/api/voicings", addVoicing);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}...`);
